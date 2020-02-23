@@ -17,6 +17,10 @@ h1 {
    font-family: Arvo, Georgia, serif;
 }
 
+h2, h3, h4, h5 {
+   color: #450084;
+}
+
 footer {
    color: #333;
    background-color: #f7f2e5;
@@ -39,14 +43,14 @@ nav h3 {
    font-family: Arvo, Georgia, serif;
 }
 
-nav .dropdown-menu {
+nav .dropdown-menu, .card-header {
    background-color: #dfd2aa;
 }
 
 nav .btn:hover, nav h3:hover {
    background-color: #dfd2aa;
    color: #450084;
-   transition-duration: 0.5s;
+   transition: background-color 1.5s;
 }
 
 #background_img {
@@ -57,6 +61,10 @@ nav .btn:hover, nav h3:hover {
    background-size: cover;
    height: 270px;
    z-index: 1;
+}
+
+.pdf-viewer:hover {
+   cursor: zoom-in;
 }
 
 footer em, footer h5 {
