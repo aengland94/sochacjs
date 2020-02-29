@@ -47,10 +47,13 @@ nav .dropdown-menu, .card-header {
    background-color: #dfd2aa;
 }
 
+nav .btn, nav h3 {
+   transition: background-color 1.5s;
+}
+
 nav .btn:hover, nav h3:hover {
    background-color: #dfd2aa;
-   color: #450084;
-   transition: background-color 1.5s;
+   color: #450084;   
 }
 
 #background_img {
@@ -67,8 +70,16 @@ nav .btn:hover, nav h3:hover {
    cursor: zoom-in;
 }
 
-footer em, footer h5 {
+em, footer h5 {
    color: #450084;
+}
+
+a.card {
+   transition: background-color 1.5s;
+}
+
+a.card:hover, .gold-bg {
+   background-color: #dfd2aa;
 }
 
 @media (min-height: 300px) {
